@@ -1,8 +1,8 @@
 <?php
 
-				if($aaaaa)
+	if($aaaaa)
         {
-					$aaaaa = 1;
+								$aaaaa = 1;
         } else {
-					$aaaaa = 0;
+								$aaaaa = 0;
         }
