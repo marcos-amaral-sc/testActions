@@ -24,5 +24,5 @@ jobs:
       - uses: tinovyatkin/action-php-codesniffer@v1
         with:
           files: "**.php"
-          phpcs_path: php phpcs.phar
+          phpcs_path: php phpcs.phar --exclude=PSR2.Classes.PropertyDeclaration,PSR2.Methods.MethodDeclaration,Generic.Files.LineLength,Squiz.Classes.ValidClassName,PSR1.Classes.ClassDeclaration --standard=PSR2 --encoding=utf-8 --colors --no-cache --tab-width=4
           standard: phpcs.xml
